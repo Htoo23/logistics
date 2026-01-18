@@ -1,0 +1,57 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Api", "src\\Logistics.Api\\Logistics.Api.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "src\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A03}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delivery.Domain", "src\\Modules\\Delivery\\Delivery.Domain\\Delivery.Domain.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delivery.Application", "src\\Modules\\Delivery\\Delivery.Application\\Delivery.Application.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delivery.Infrastructure", "src\\Modules\\Delivery\\Delivery.Infrastructure\\Delivery.Infrastructure.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A13}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fleet.Domain", "src\\Modules\\Fleet\\Fleet.Domain\\Fleet.Domain.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fleet.Application", "src\\Modules\\Fleet\\Fleet.Application\\Fleet.Application.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fleet.Infrastructure", "src\\Modules\\Fleet\\Fleet.Infrastructure\\Fleet.Infrastructure.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A23}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Domain", "src\\Modules\\Routing\\Routing.Domain\\Routing.Domain.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Application", "src\\Modules\\Routing\\Routing.Application\\Routing.Application.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Infrastructure", "src\\Modules\\Routing\\Routing.Infrastructure\\Routing.Infrastructure.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A33}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.Domain", "src\\Modules\\Notifications\\Notifications.Domain\\Notifications.Domain.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.Application", "src\\Modules\\Notifications\\Notifications.Application\\Notifications.Application.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.Infrastructure", "src\\Modules\\Notifications\\Notifications.Infrastructure\\Notifications.Infrastructure.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A43}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Domain", "src\\Modules\\Analytics\\Analytics.Domain\\Analytics.Domain.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Application", "src\\Modules\\Analytics\\Analytics.Application\\Analytics.Application.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Infrastructure", "src\\Modules\\Analytics\\Analytics.Infrastructure\\Analytics.Infrastructure.csproj", "{B9B7D3A0-4F9C-4DB2-9A6E-7B3B0E9B0A53}"
+EndProject
+
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+  EndGlobalSection
+EndGlobal
+

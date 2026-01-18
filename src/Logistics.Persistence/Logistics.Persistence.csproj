@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../BuildingBlocks/Infrastructure/Infrastructure.csproj" />
+    <ProjectReference Include="../Modules/Delivery/Delivery.Domain/Delivery.Domain.csproj" />
+    <ProjectReference Include="../Modules/Fleet/Fleet.Domain/Fleet.Domain.csproj" />
+    <ProjectReference Include="../Modules/Routing/Routing.Domain/Routing.Domain.csproj" />
+    <ProjectReference Include="../Modules/Notifications/Notifications.Domain/Notifications.Domain.csproj" />
+    <ProjectReference Include="../Modules/Analytics/Analytics.Domain/Analytics.Domain.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\db",
+    "\\docker",
+    "\\docs",
+    "\\src",
+    "\\src\\Logistics.Api",
+    "\\src\\Logistics.Api\\Controllers"
+  ],
+  "SelectedNode": "\\src\\Logistics.Api\\Controllers\\DeliveriesController.cs",
+  "PreviewInSolutionExplorer": false
+}

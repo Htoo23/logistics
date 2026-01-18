@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="12.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0" PrivateAssets="all" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Logistics.Persistence/Logistics.Persistence.csproj" />
+    <ProjectReference Include="../Modules/Delivery/Delivery.Application/Delivery.Application.csproj" />
+    <ProjectReference Include="../Modules/Delivery/Delivery.Infrastructure/Delivery.Infrastructure.csproj" />
+    <ProjectReference Include="../Modules/Fleet/Fleet.Application/Fleet.Application.csproj" />
+    <ProjectReference Include="../Modules/Fleet/Fleet.Infrastructure/Fleet.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
